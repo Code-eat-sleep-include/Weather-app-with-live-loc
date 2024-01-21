@@ -1,0 +1,135 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: url("./assests/Portrait.jpg") no-repeat center center fixed;
+  color: aliceblue;
+  overflow-x: hidden;
+}
+
+.img {
+  background-image: url("./assests/1.svg");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  margin-left: 20px;
+}
+
+.motto {
+  font-family: 'Lato', sans-serif;
+  font-size: 68pt;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 28pt;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn {
+  margin-top: 30px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.outer {
+  margin-top: 100px;
+  border-radius: 50px;
+  background: #5433ff;
+  background: -webkit-linear-gradient(
+    to left,
+    #a5fecb,
+    #20bdff,
+    #5433ff
+  );
+  background: linear-gradient(
+    to left,
+    #a5fecb,
+    #20bdff,
+    #5433ff
+  );
+
+  margin-bottom: 20px;
+  padding: 20px 0;
+  padding-bottom: 60px;
+  opacity: 0;
+  transition: all 1000ms;
+}
+
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  font-size: 24pt;
+}
+
+.temperature {
+  font-size: 60pt;
+  width: 250px;
+}
+
+.des {
+  font-size: 20pt;
+}
+
+.des_icon {
+  height: 50px;
+  width: 50px;
+}
+
+.det-text {
+  font-size: 16pt;
+  width: 210px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.error {  
+  line-height: 50px;
+  border-radius: 50px;
+  padding-bottom: 40px;
+  transition: 4000ms;
+  margin-top: 30px;
+}
+
+.btn-close{
+  margin-right: 20px;
+}
+
+.scroll-to-top{
+  position: fixed;
+  bottom: 7%;
+  right: 30px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("./assests/icons/up.png");
+}
+
+#city{
+  height: 50px;
+  border-radius: 50px;
+  padding: 0 20px;
+}
+
+
+@media screen and (max-width: 540px) {
+
+  .img{
+    display: none;
+  }
+
+  .motto{
+    font-size: 45pt;
+    font-weight: 600;
+  }
+  .text{
+    font-size: 20pt;
+  }
+
+}
